@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Pufony;
+  src: url(../files/Pufony-1.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Pufony;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+body {
+  min-width: 800px;
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  width: inherit;
+  min-width: inherit;
+  background-color: #8adcfc;
+  height: 100px;
+  padding: 1rem;
+  text-align: center;
+}
+
+header {
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+footer .langs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 330px;
+}
+footer .langs,
+footer .langs2 {
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+  font-size: 25px;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+footer a:hover {
+  font-size: 28px;
+}
+footer .autor {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 22px;
+}
+footer .autor b {
+  text-align: center;
+}
+footer .autor:hover {
+  font-size: 24px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  background-image: url(../img/med.webp);
+  background-size: cover;
+}
+main .fun {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+}
+main .fun .images {
+  display: inherit;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+main .fun .images img {
+  height: 400px;
+  padding: 20px;
+  border-radius: 10%;
+}
+main .fun .images .karl:hover,
+main .fun .images .tom:hover {
+  height: 390px;
+  transition: all 0.3s ease;
+}
+main .fun .images .karls,
+main .fun .images .toms {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+}
+main .fun .images .karls p,
+main .fun .images .toms p {
+  text-decoration: underline;
+}
+main .fun .images2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+main .fun .images2 img {
+  height: 400px;
+  padding: 20px;
+  border-radius: 10%;
+}
+main .fun .images2 p {
+  text-decoration: underline;
+}
+main .fun .images2 p a {
+  color: #000;
+}
+main .fun .btn {
+  margin-top: 2rem;
+}
+main .fun .btn .btn-a {
+  color: #000;
+  text-decoration: none;
+  background-color: #8adcfc;
+  padding: 1rem;
+  border-radius: 5%;
+  box-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease;
+}
+main .fun .btn .btn-a:hover {
+  background-color: #73b6d1;
+  font-size: 27px;
+}
+main .fun .btn .btn-a:active {
+  background-color: #588fa5;
+  font-size: 27px;
+}/*# sourceMappingURL=style.css.map */
